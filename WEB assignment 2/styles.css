@@ -1,0 +1,162 @@
+.home-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.home-container ul {
+  text-align: left;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header, .navbar, .home-container {
+  flex-shrink: 0;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.navbar {
+  background: #333;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #575757;
+}
+
+.header, .footer {
+  background: #1b397a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  overflow: hidden;
+}
+.sidebar {
+  float: left;
+  width: 25%;
+  background: #ddd;
+  padding: 20px;
+}
+.content {
+  float: right;
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+}
+
+.tribute-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+}
+.portrait {
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+.btn {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #575757;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background: #555;
+  color: white;
+}
+tr:nth-child(2) {
+  background: #e33b86;
+}
+.highlight-row {
+  background: yellow;
+}
+
+.feedback-form {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.feedback-form label {
+  font-weight: bold;
+}
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea,
+.feedback-form button {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0;
+}
+.feedback-form button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.feedback-form button:hover {
+  background: #575757;
+}
+
+.radio-inline {
+  display: inline-flex;      /* делаем inline-flex */
+  align-items: center;       /* выравнивание по вертикали */
+  margin-right: 15px;        /* отступ между кнопками */
+}
+
+.radio-inline input {
+  margin: 0 5px 0 0;         /* ровный отступ справа */
+}

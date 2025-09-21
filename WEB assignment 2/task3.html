@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3 - Table & Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>CSS Table and FORM</h1>
+  </div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="task1.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="task3.html">Task 3</a>
+    <a href="task4.html">Task 4</a>
+  </div>
+
+  <h1 id="table-heading">Student Grades</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Anna</td>
+      <td>Math</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td rowspan="2">Physics</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>Maria</td>
+      <td>A</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>David</td>
+      <td>English</td>
+      <td>C</td>
+    </tr>
+  </table>
+
+  <h2>Feedback Form</h2>
+  <form class="feedback-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+      <option>Student</option>
+      <option>Teacher</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <p>Are you satisfied?</p>
+    <label class="radio-inline">
+    <input type="radio" name="satisfied" value="yes"> Yes
+    </label>
+    <label class="radio-inline">
+    <input type="radio" name="satisfied" value="no"> No
+    </label>
+
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="footer">
+    <p>&copy; 2025 [Zhanassyl Sherkenov]. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
